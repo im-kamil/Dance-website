@@ -1,0 +1,23 @@
+{
+  "name": "dance-website",
+  "version": "1.0.0",
+  "description": "This is popular dance academy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/im-kamil/Dance-website.git"
+  },
+  "author": "Kamil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/im-kamil/Dance-website/issues"
+  },
+  "homepage": "https://github.com/im-kamil/Dance-website#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  }
+}
