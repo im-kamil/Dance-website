@@ -1,6 +1,7 @@
 const express = require("express");
 const path = require("path");
 const app = express();
+const hostname = '0.0.0.0'
 const port = 8000;
 
 // EXPRESS SPECIFIC STUFF
@@ -19,6 +20,6 @@ app.get('/', (req, res)=>{
 
 
 // START THE SERVER
-app.listen(port, ()=>{
-    console.log(`The application started successfully on port ${port}`);
+app.listen(port, hostname, ()=>{
+    console.log(`The application started successfully on http://${hostname}:${port}/`);
 });
